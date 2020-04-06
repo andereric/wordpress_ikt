@@ -1,0 +1,518 @@
+0000.000 (0) Opened log file at time: Mon, 06 Apr 2020 05:42:08 +0000 on http://einmannandereric.ikt.khk.ee/wordpress
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.2.29 (cgi-fcgi, Linux ikt.khk.ee 3.10.0-1062.9.1.el7.x86_64 #1 SMP Fri Dec 6 15:49:49 UTC 2019 x86_64) MySQL: 5.6.47 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 54M | 56.3M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.064 (0) Free space on disk containing Updraft's temporary directory: 264980 MB
+0000.066 (0) Tasks: Backup files: 1 (schedule: twicedaily) Backup DB:  (schedule: twicedaily)
+0000.067 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.074 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1586066753, seconds_ago=84975)
+0000.075 (0) Set semaphore last lock (fd) time to 2020-04-06 05:42:08
+0000.076 (0) Semaphore lock (fd) complete
+0000.078 (0) Backup run: resumption=0, nonce=013d02481ac8, file_nonce=013d02481ac8 begun at=1586151728 (0s ago), job type=backup
+0000.079 (0) Scheduling a resumption (1) after 300 seconds (1586152028) in case this run gets aborted
+0000.091 (0) Checking if we have a zip executable available
+0000.092 (0) Testing: /usr/bin/zip
+0000.099 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.100 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.100 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.101 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.101 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.107 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.108 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.116 (0) Working binary zip found: /usr/bin/zip
+0000.118 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.118 (0) Creation of backups of directories: beginning
+0000.120 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.421 (0) Total entities for the zip file: 998 directories, 6032 files (0 skipped as non-modified), 105.2 MB
+0000.425 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.428 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.431 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.434 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.437 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.438 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.8 MB, 6032 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.863 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: size is now: 4.70 MB
+0000.868 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 600 files added (on-disk size: 4815.5 KB)
+0000.871 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 700 files added (on-disk size: 4815.5 KB)
+0000.874 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 800 files added (on-disk size: 4815.5 KB)
+0000.877 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 900 files added (on-disk size: 4815.5 KB)
+0000.880 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 1000 files added (on-disk size: 4815.5 KB)
+0000.881 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.7 MB, 6032 files batched, 501 (1002) added so far); re-opening (prior size: 4815.5 KB)
+0001.713 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: size is now: 9.50 MB
+0001.718 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 1100 files added (on-disk size: 9733.5 KB)
+0001.721 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 1200 files added (on-disk size: 9733.5 KB)
+0001.725 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 1300 files added (on-disk size: 9733.5 KB)
+0001.728 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 1400 files added (on-disk size: 9733.5 KB)
+0001.731 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 1500 files added (on-disk size: 9733.5 KB)
+0001.732 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.8 MB, 6032 files batched, 501 (1503) added so far); re-opening (prior size: 9733.5 KB)
+0001.996 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 1600 files added (on-disk size: 10665.7 KB)
+0001.999 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 1700 files added (on-disk size: 10665.7 KB)
+0002.003 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 1800 files added (on-disk size: 10665.7 KB)
+0002.006 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 1900 files added (on-disk size: 10665.7 KB)
+0002.009 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 2000 files added (on-disk size: 10665.7 KB)
+0002.010 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 MB, 6032 files batched, 501 (2004) added so far); re-opening (prior size: 10665.7 KB)
+0002.235 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 2100 files added (on-disk size: 11447.9 KB)
+0002.239 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 2200 files added (on-disk size: 11447.9 KB)
+0002.242 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 2300 files added (on-disk size: 11447.9 KB)
+0002.245 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 2400 files added (on-disk size: 11447.9 KB)
+0002.248 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 2500 files added (on-disk size: 11447.9 KB)
+0002.249 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (23 MB, 6032 files batched, 501 (2505) added so far); re-opening (prior size: 11447.9 KB)
+0003.791 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: size is now: 18.50 MB
+0003.796 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 2600 files added (on-disk size: 18934.6 KB)
+0003.800 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 2700 files added (on-disk size: 18934.6 KB)
+0003.803 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 2800 files added (on-disk size: 18934.6 KB)
+0003.806 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 2900 files added (on-disk size: 18934.6 KB)
+0003.810 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 3000 files added (on-disk size: 18934.6 KB)
+0003.811 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6 MB, 6032 files batched, 501 (3006) added so far); re-opening (prior size: 18934.6 KB)
+0004.249 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 3100 files added (on-disk size: 20659.8 KB)
+0004.252 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 3200 files added (on-disk size: 20659.8 KB)
+0004.256 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 3300 files added (on-disk size: 20659.8 KB)
+0004.259 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 3400 files added (on-disk size: 20659.8 KB)
+0004.263 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 3500 files added (on-disk size: 20659.8 KB)
+0004.263 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.8 MB, 6032 files batched, 501 (3507) added so far); re-opening (prior size: 20659.8 KB)
+0004.714 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 3600 files added (on-disk size: 22957.3 KB)
+0004.718 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 3700 files added (on-disk size: 22957.3 KB)
+0004.721 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 3800 files added (on-disk size: 22957.3 KB)
+0004.724 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 3900 files added (on-disk size: 22957.3 KB)
+0004.728 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 4000 files added (on-disk size: 22957.3 KB)
+0004.728 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.8 MB, 6032 files batched, 501 (4008) added so far); re-opening (prior size: 22957.3 KB)
+0005.181 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 4100 files added (on-disk size: 24944.5 KB)
+0005.184 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 4200 files added (on-disk size: 24944.5 KB)
+0005.188 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 4300 files added (on-disk size: 24944.5 KB)
+0005.191 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 4400 files added (on-disk size: 24944.5 KB)
+0005.195 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 4500 files added (on-disk size: 24944.5 KB)
+0005.195 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (21.7 MB, 6032 files batched, 501 (4509) added so far); re-opening (prior size: 24944.5 KB)
+0006.377 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: size is now: 31.60 MB
+0006.381 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 4600 files added (on-disk size: 32322.2 KB)
+0006.385 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 4700 files added (on-disk size: 32322.2 KB)
+0006.388 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 4800 files added (on-disk size: 32322.2 KB)
+0006.391 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 4900 files added (on-disk size: 32322.2 KB)
+0006.394 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 5000 files added (on-disk size: 32322.2 KB)
+0006.395 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.5 MB, 6032 files batched, 501 (5010) added so far); re-opening (prior size: 32322.2 KB)
+0006.732 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 5100 files added (on-disk size: 33742.6 KB)
+0006.735 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 5200 files added (on-disk size: 33742.6 KB)
+0006.738 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 5300 files added (on-disk size: 33742.6 KB)
+0006.742 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 5400 files added (on-disk size: 33742.6 KB)
+0006.745 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 5500 files added (on-disk size: 33742.6 KB)
+0006.746 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.2 MB, 6032 files batched, 501 (5511) added so far); re-opening (prior size: 33742.6 KB)
+0007.007 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 5600 files added (on-disk size: 34672.2 KB)
+0007.010 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 5700 files added (on-disk size: 34672.2 KB)
+0007.014 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 5800 files added (on-disk size: 34672.2 KB)
+0007.017 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 5900 files added (on-disk size: 34672.2 KB)
+0007.020 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip.tmp: 6000 files added (on-disk size: 34672.2 KB)
+0007.021 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.4 MB, 6032 files batched, 501 (6012) added so far); re-opening (prior size: 34672.2 KB)
+0008.214 (0) Created plugins zip (0) - 36853.4 KB in 8 s (4579.5 KB/s) (sha1: 40e8bc0e40b9d47fa5963a35ba876c131e728dbc, sha256: 37c8e9d3ae95e2b032cc96f67aa45bf0633fb9a40b96988fc44f5f921edbc387)
+0008.216 (0) Beginning creation of dump of themes (split every: 400 MB)
+0008.309 (0) Total entities for the zip file: 188 directories, 758 files (0 skipped as non-modified), 11.5 MB
+0008.313 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.316 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0008.319 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0008.322 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0008.326 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0008.326 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.8 MB, 758 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0008.672 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-themes.zip.tmp: size is now: 4.50 MB
+0008.677 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-themes.zip.tmp: 600 files added (on-disk size: 4594.9 KB)
+0008.680 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-themes.zip.tmp: 700 files added (on-disk size: 4594.9 KB)
+0008.837 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-themes.zip.tmp: size is now: 5.70 MB
+0008.927 (0) Created themes zip (0) - 5797.1 KB in 0.7 s (8742.5 KB/s) (sha1: 633ec816db3eae428eebb3887855845a7a5f50d1, sha256: aac677f6e3e6a48347f62711c65750a4a50e3f7c18dbe7048f8583361be7602d)
+0008.928 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0008.929 (0) Looking for candidates to backup in: /home/einmannandereric/public_html/wordpress/wp-content/uploads
+0008.929 (0) finding files: 2020: adding to list (1)
+0008.930 (0) finding files: ultimatemember: adding to list (2)
+0008.930 (0) finding files: elementor: adding to list (3)
+0008.931 (0) finding files: ithemes-security: adding to list (4)
+0008.931 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0008.998 (0) Total entities for the zip file: 10 directories, 277 files (0 skipped as non-modified), 8.7 MB
+0009.001 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.004 (0) Zip: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0009.129 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-uploads.zip.tmp: size is now: 8.70 MB
+0009.264 (0) Created uploads zip (0) - 8921.1 KB in 0.3 s (31187.7 KB/s) (sha1: 3168655a27da55e056e9c894bfbf365fc51912e6, sha256: cd460ded5c67175085f639bf1b7949b870625e3a8e289d855e597a1cc06add31)
+0009.266 (0) Beginning backup of other directories found in the content directory (index: 0)
+0009.266 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0009.267 (0) Looking for candidates to backup in: /home/einmannandereric/public_html/wordpress/wp-content
+0009.267 (0) finding files: themes: skipping: this is the themes directory
+0009.268 (0) finding files: index.php: adding to list (1)
+0009.268 (0) finding files: plugins: skipping: this is the plugins directory
+0009.269 (0) finding files: uploads: skipping: this is the uploads directory
+0009.269 (0) finding files: upgrade: skipping: excluded by options
+0009.270 (0) finding files: languages: adding to list (2)
+0009.270 (0) finding files: updraft: skipping: this is the updraft directory
+0009.271 (0) finding files: wflogs: adding to list (3)
+0009.341 (0) Total entities for the zip file: 3 directories, 11 files (0 skipped as non-modified), 5.3 MB
+0009.829 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-others.zip.tmp: size is now: 2.40 MB
+0009.869 (0) Created others zip (0) - 2490.4 KB in 0.5 s (4703.3 KB/s) (sha1: a5aa1dea8c467ce347d97aa9cbff59fed0df296e, sha256: cbe6819d3f3e8d421ed270f43ebdd2162bff54a982e1a86596e04bec66216456)
+0009.872 (0) Saving backup status to database (elements: 8)
+0009.874 (0) Beginning creation of database dump (WordPress DB)
+0009.876 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0009.897 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1260 bytes total)
+0009.898 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0009.903 (0) Table wp_options: Total expected rows (approximate): 404
+0009.941 (0) Table wp_options: Total rows added: 400 in 0.04 seconds
+0009.942 (0) Table wp_options: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_options.table.gz - 99.9 KB)
+0009.945 (0) Table wp_users: Total expected rows (approximate): 4
+0009.947 (0) Table wp_users: Total rows added: 4 in 0.00 seconds
+0009.947 (0) Table wp_users: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_users.table.gz - 0.8 KB)
+0009.950 (0) Table wp_usermeta: Total expected rows (approximate): 91
+0009.952 (0) Table wp_usermeta: Total rows added: 91 in 0.00 seconds
+0009.953 (0) Table wp_usermeta: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_usermeta.table.gz - 2.1 KB)
+0009.956 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 11
+0009.958 (0) Table wp_actionscheduler_actions: Total rows added: 11 in 0.00 seconds
+0009.958 (0) Table wp_actionscheduler_actions: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_actionscheduler_actions.table.gz - 1.2 KB)
+0009.961 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0009.962 (0) Table wp_actionscheduler_claims: Total rows added: 0 in 0.00 seconds
+0009.963 (0) Table wp_actionscheduler_claims: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_actionscheduler_claims.table.gz - 0.4 KB)
+0009.966 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 2
+0009.967 (0) Table wp_actionscheduler_groups: Total rows added: 2 in 0.00 seconds
+0009.968 (0) Table wp_actionscheduler_groups: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_actionscheduler_groups.table.gz - 0.4 KB)
+0009.971 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 31
+0009.973 (0) Table wp_actionscheduler_logs: Total rows added: 31 in 0.00 seconds
+0009.974 (0) Table wp_actionscheduler_logs: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_actionscheduler_logs.table.gz - 0.8 KB)
+0009.977 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0009.978 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0009.979 (0) Table wp_commentmeta: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0009.981 (0) Table wp_comments: Total expected rows (approximate): 5
+0009.983 (0) Table wp_comments: Total rows added: 5 in 0.00 seconds
+0009.984 (0) Table wp_comments: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_comments.table.gz - 1.2 KB)
+0009.987 (0) Table wp_links: Total expected rows (approximate): 0
+0009.989 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0009.989 (0) Table wp_links: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_links.table.gz - 0.4 KB)
+0009.992 (0) Table wp_postmeta: Total expected rows (approximate): 355
+0009.997 (0) Table wp_postmeta: Total rows added: 355 in 0.00 seconds
+0009.998 (0) Table wp_postmeta: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_postmeta.table.gz - 9.5 KB)
+0010.001 (0) Table wp_posts: Total expected rows (approximate): 178
+0010.011 (0) Table wp_posts: Total rows added: 178 in 0.01 seconds
+0010.013 (0) Table wp_posts: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_posts.table.gz - 22.9 KB)
+0010.016 (0) Table wp_term_relationships: Total expected rows (approximate): 22
+0010.018 (0) Table wp_term_relationships: Total rows added: 22 in 0.00 seconds
+0010.019 (0) Table wp_term_relationships: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0010.022 (0) Table wp_term_taxonomy: Total expected rows (approximate): 8
+0010.024 (0) Table wp_term_taxonomy: Total rows added: 8 in 0.00 seconds
+0010.024 (0) Table wp_term_taxonomy: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0010.028 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0010.029 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0010.030 (0) Table wp_termmeta: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_termmeta.table.gz - 0.4 KB)
+0010.033 (0) Table wp_terms: Total expected rows (approximate): 8
+0010.035 (0) Table wp_terms: Total rows added: 8 in 0.00 seconds
+0010.035 (0) Table wp_terms: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_terms.table.gz - 0.5 KB)
+0010.038 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 0
+0010.040 (0) Table wp_yoast_seo_links: Total rows added: 0 in 0.00 seconds
+0010.041 (0) Table wp_yoast_seo_links: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_yoast_seo_links.table.gz - 0.4 KB)
+0010.044 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 0
+0010.045 (0) Table wp_yoast_seo_meta: Total rows added: 0 in 0.00 seconds
+0010.046 (0) Table wp_yoast_seo_meta: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_yoast_seo_meta.table.gz - 0.3 KB)
+0010.049 (0) Table wp_booking: Total expected rows (approximate): 1
+0010.051 (0) Table wp_booking: Total rows added: 1 in 0.00 seconds
+0010.051 (0) Table wp_booking: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_booking.table.gz - 0.6 KB)
+0010.055 (0) Table wp_bookingdates: Total expected rows (approximate): 3
+0010.056 (0) Table wp_bookingdates: Total rows added: 3 in 0.00 seconds
+0010.057 (0) Table wp_bookingdates: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_bookingdates.table.gz - 0.4 KB)
+0010.060 (0) Table wp_cpappbk_forms: Total expected rows (approximate): 1
+0010.063 (0) Table wp_cpappbk_forms: Total rows added: 1 in 0.00 seconds
+0010.063 (0) Table wp_cpappbk_forms: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_cpappbk_forms.table.gz - 1.9 KB)
+0010.067 (0) Table wp_cpappbk_messages: Total expected rows (approximate): 0
+0010.068 (0) Table wp_cpappbk_messages: Total rows added: 0 in 0.00 seconds
+0010.069 (0) Table wp_cpappbk_messages: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_cpappbk_messages.table.gz - 0.4 KB)
+0010.072 (0) Table wp_ea_error_logs: Total expected rows (approximate): 0
+0010.073 (0) Table wp_ea_error_logs: Total rows added: 0 in 0.00 seconds
+0010.074 (0) Table wp_ea_error_logs: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_ea_error_logs.table.gz - 0.3 KB)
+0010.077 (0) Table wp_itsec_distributed_storage: Total expected rows (approximate): 0
+0010.079 (0) Table wp_itsec_distributed_storage: Total rows added: 0 in 0.00 seconds
+0010.079 (0) Table wp_itsec_distributed_storage: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_itsec_distributed_storage.table.gz - 0.4 KB)
+0010.083 (0) Table wp_itsec_fingerprints: Total expected rows (approximate): 0
+0010.084 (0) Table wp_itsec_fingerprints: Total rows added: 0 in 0.00 seconds
+0010.085 (0) Table wp_itsec_fingerprints: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_itsec_fingerprints.table.gz - 0.4 KB)
+0010.088 (0) Table wp_itsec_geolocation_cache: Total expected rows (approximate): 0
+0010.089 (0) Table wp_itsec_geolocation_cache: Total rows added: 0 in 0.00 seconds
+0010.090 (0) Table wp_itsec_geolocation_cache: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_itsec_geolocation_cache.table.gz - 0.4 KB)
+0010.093 (0) Table wp_itsec_lockouts: Total expected rows (approximate): 0
+0010.095 (0) Table wp_itsec_lockouts: Total rows added: 0 in 0.00 seconds
+0010.095 (0) Table wp_itsec_lockouts: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_itsec_lockouts.table.gz - 0.4 KB)
+0010.099 (0) Table wp_itsec_logs: Total expected rows (approximate): 26
+0010.102 (0) Table wp_itsec_logs: Total rows added: 26 in 0.00 seconds
+0010.103 (0) Table wp_itsec_logs: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_itsec_logs.table.gz - 4.4 KB)
+0010.106 (0) Table wp_itsec_opaque_tokens: Total expected rows (approximate): 0
+0010.107 (0) Table wp_itsec_opaque_tokens: Total rows added: 0 in 0.00 seconds
+0010.108 (0) Table wp_itsec_opaque_tokens: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_itsec_opaque_tokens.table.gz - 0.3 KB)
+0010.111 (0) Table wp_itsec_temp: Total expected rows (approximate): 22
+0010.113 (0) Table wp_itsec_temp: Total rows added: 22 in 0.00 seconds
+0010.114 (0) Table wp_itsec_temp: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_itsec_temp.table.gz - 0.6 KB)
+0010.117 (0) Table wp_um_metadata: Total expected rows (approximate): 0
+0010.119 (0) Table wp_um_metadata: Total rows added: 0 in 0.00 seconds
+0010.119 (0) Table wp_um_metadata: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_um_metadata.table.gz - 0.4 KB)
+0010.122 (0) Table wp_wfblockediplog: Total expected rows (approximate): 0
+0010.124 (0) Table wp_wfblockediplog: Total rows added: 0 in 0.00 seconds
+0010.124 (0) Table wp_wfblockediplog: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfblockediplog.table.gz - 0.3 KB)
+0010.127 (0) Table wp_wfblocks7: Total expected rows (approximate): 0
+0010.129 (0) Table wp_wfblocks7: Total rows added: 0 in 0.00 seconds
+0010.129 (0) Table wp_wfblocks7: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfblocks7.table.gz - 0.4 KB)
+0010.132 (0) Table wp_wfconfig: Total expected rows (approximate): 249
+0010.161 (0) Table wp_wfconfig: Total rows added: 249 in 0.03 seconds
+0010.162 (0) Table wp_wfconfig: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfconfig.table.gz - 362.3 KB)
+0010.165 (0) Table wp_wfcrawlers: Total expected rows (approximate): 0
+0010.167 (0) Table wp_wfcrawlers: Total rows added: 0 in 0.00 seconds
+0010.167 (0) Table wp_wfcrawlers: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfcrawlers.table.gz - 0.3 KB)
+0010.171 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0010.172 (0) Table wp_wffilechanges: Total rows added: 0 in 0.00 seconds
+0010.173 (0) Table wp_wffilechanges: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wffilechanges.table.gz - 0.3 KB)
+0010.176 (0) Table wp_wffilemods: Total expected rows (approximate): 7447
+0010.325 (0) Table wp_wffilemods: Total rows added: 7447 in 0.15 seconds
+0010.326 (0) Table wp_wffilemods: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wffilemods.table.gz - 576.4 KB)
+0010.330 (0) Table wp_wfhits: Total expected rows (approximate): 12
+0010.332 (0) Table wp_wfhits: Total rows added: 12 in 0.00 seconds
+0010.333 (0) Table wp_wfhits: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfhits.table.gz - 1 KB)
+0010.336 (0) Table wp_wfhoover: Total expected rows (approximate): 0
+0010.338 (0) Table wp_wfhoover: Total rows added: 0 in 0.00 seconds
+0010.338 (0) Table wp_wfhoover: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfhoover.table.gz - 0.3 KB)
+0010.341 (0) Table wp_wfissues: Total expected rows (approximate): 10
+0010.344 (0) Table wp_wfissues: Total rows added: 10 in 0.00 seconds
+0010.345 (0) Table wp_wfissues: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfissues.table.gz - 2.6 KB)
+0010.348 (0) Table wp_wfknownfilelist: Total expected rows (approximate): 7448
+0010.399 (0) Table wp_wfknownfilelist: Total rows added: 7448 in 0.05 seconds
+0010.400 (0) Table wp_wfknownfilelist: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfknownfilelist.table.gz - 72.6 KB)
+0010.403 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0010.405 (0) Table wp_wflivetraffichuman: Total rows added: 0 in 0.00 seconds
+0010.405 (0) Table wp_wflivetraffichuman: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wflivetraffichuman.table.gz - 0.3 KB)
+0010.409 (0) Table wp_wflocs: Total expected rows (approximate): 0
+0010.410 (0) Table wp_wflocs: Total rows added: 0 in 0.00 seconds
+0010.411 (0) Table wp_wflocs: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wflocs.table.gz - 0.4 KB)
+0010.414 (0) Table wp_wflogins: Total expected rows (approximate): 16
+0010.416 (0) Table wp_wflogins: Total rows added: 16 in 0.00 seconds
+0010.417 (0) Table wp_wflogins: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wflogins.table.gz - 0.8 KB)
+0010.420 (0) Table wp_wfls_2fa_secrets: Total expected rows (approximate): 0
+0010.422 (0) Table wp_wfls_2fa_secrets: Total rows added: 0 in 0.00 seconds
+0010.422 (0) Table wp_wfls_2fa_secrets: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfls_2fa_secrets.table.gz - 0.4 KB)
+0010.425 (0) Table wp_wfls_settings: Total expected rows (approximate): 17
+0010.427 (0) Table wp_wfls_settings: Total rows added: 19 in 0.00 seconds
+0010.428 (0) Table wp_wfls_settings: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfls_settings.table.gz - 0.7 KB)
+0010.431 (0) Table wp_wfnotifications: Total expected rows (approximate): 2
+0010.433 (0) Table wp_wfnotifications: Total rows added: 2 in 0.00 seconds
+0010.433 (0) Table wp_wfnotifications: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfnotifications.table.gz - 0.6 KB)
+0010.437 (0) Table wp_wfpendingissues: Total expected rows (approximate): 0
+0010.438 (0) Table wp_wfpendingissues: Total rows added: 0 in 0.00 seconds
+0010.439 (0) Table wp_wfpendingissues: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfpendingissues.table.gz - 0.4 KB)
+0010.442 (0) Table wp_wfreversecache: Total expected rows (approximate): 0
+0010.443 (0) Table wp_wfreversecache: Total rows added: 0 in 0.00 seconds
+0010.444 (0) Table wp_wfreversecache: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfreversecache.table.gz - 0.3 KB)
+0010.447 (0) Table wp_wfsnipcache: Total expected rows (approximate): 0
+0010.449 (0) Table wp_wfsnipcache: Total rows added: 0 in 0.00 seconds
+0010.450 (0) Table wp_wfsnipcache: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfsnipcache.table.gz - 0.4 KB)
+0010.453 (0) Table wp_wfstatus: Total expected rows (approximate): 199
+0010.456 (0) Table wp_wfstatus: Total rows added: 199 in 0.00 seconds
+0010.457 (0) Table wp_wfstatus: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfstatus.table.gz - 4.1 KB)
+0010.460 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0010.461 (0) Table wp_wftrafficrates: Total rows added: 0 in 0.00 seconds
+0010.462 (0) Table wp_wftrafficrates: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wftrafficrates.table.gz - 0.3 KB)
+0010.465 (0) Table wp_wpforms_tasks_meta: Total expected rows (approximate): 1
+0010.467 (0) Table wp_wpforms_tasks_meta: Total rows added: 1 in 0.00 seconds
+0010.468 (0) Table wp_wpforms_tasks_meta: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wpforms_tasks_meta.table.gz - 0.4 KB)
+0010.471 (0) Table wp_wpsbc_calendar_meta: Total expected rows (approximate): 0
+0010.472 (0) Table wp_wpsbc_calendar_meta: Total rows added: 0 in 0.00 seconds
+0010.473 (0) Table wp_wpsbc_calendar_meta: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wpsbc_calendar_meta.table.gz - 0.4 KB)
+0010.476 (0) Table wp_wpsbc_calendars: Total expected rows (approximate): 1
+0010.478 (0) Table wp_wpsbc_calendars: Total rows added: 1 in 0.00 seconds
+0010.479 (0) Table wp_wpsbc_calendars: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wpsbc_calendars.table.gz - 0.4 KB)
+0010.482 (0) Table wp_wpsbc_event_meta: Total expected rows (approximate): 0
+0010.483 (0) Table wp_wpsbc_event_meta: Total rows added: 0 in 0.00 seconds
+0010.484 (0) Table wp_wpsbc_event_meta: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wpsbc_event_meta.table.gz - 0.4 KB)
+0010.487 (0) Table wp_wpsbc_events: Total expected rows (approximate): 1
+0010.489 (0) Table wp_wpsbc_events: Total rows added: 1 in 0.00 seconds
+0010.489 (0) Table wp_wpsbc_events: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wpsbc_events.table.gz - 0.4 KB)
+0010.493 (0) Table wp_wpsbc_legend_item_meta: Total expected rows (approximate): 87
+0010.495 (0) Table wp_wpsbc_legend_item_meta: Total rows added: 87 in 0.00 seconds
+0010.495 (0) Table wp_wpsbc_legend_item_meta: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wpsbc_legend_item_meta.table.gz - 1.6 KB)
+0010.499 (0) Table wp_wpsbc_legend_items: Total expected rows (approximate): 5
+0010.501 (0) Table wp_wpsbc_legend_items: Total rows added: 5 in 0.00 seconds
+0010.501 (0) Table wp_wpsbc_legend_items: finishing file (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wpsbc_legend_items.table.gz - 0.5 KB)
+0010.504 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_options.table.gz (1/59): adding to final database dump
+0010.531 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_users.table.gz (2/59): adding to final database dump
+0010.532 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_usermeta.table.gz (3/59): adding to final database dump
+0010.533 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_actionscheduler_actions.table.gz (4/59): adding to final database dump
+0010.534 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_actionscheduler_claims.table.gz (5/59): adding to final database dump
+0010.534 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_actionscheduler_groups.table.gz (6/59): adding to final database dump
+0010.535 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_actionscheduler_logs.table.gz (7/59): adding to final database dump
+0010.535 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_commentmeta.table.gz (8/59): adding to final database dump
+0010.536 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_comments.table.gz (9/59): adding to final database dump
+0010.537 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_links.table.gz (10/59): adding to final database dump
+0010.537 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_postmeta.table.gz (11/59): adding to final database dump
+0010.541 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_posts.table.gz (12/59): adding to final database dump
+0010.548 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_term_relationships.table.gz (13/59): adding to final database dump
+0010.548 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_term_taxonomy.table.gz (14/59): adding to final database dump
+0010.549 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_termmeta.table.gz (15/59): adding to final database dump
+0010.549 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_terms.table.gz (16/59): adding to final database dump
+0010.550 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_yoast_seo_links.table.gz (17/59): adding to final database dump
+0010.551 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_yoast_seo_meta.table.gz (18/59): adding to final database dump
+0010.551 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_booking.table.gz (19/59): adding to final database dump
+0010.552 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_bookingdates.table.gz (20/59): adding to final database dump
+0010.552 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_cpappbk_forms.table.gz (21/59): adding to final database dump
+0010.553 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_cpappbk_messages.table.gz (22/59): adding to final database dump
+0010.554 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_ea_error_logs.table.gz (23/59): adding to final database dump
+0010.554 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_itsec_distributed_storage.table.gz (24/59): adding to final database dump
+0010.555 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_itsec_fingerprints.table.gz (25/59): adding to final database dump
+0010.556 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_itsec_geolocation_cache.table.gz (26/59): adding to final database dump
+0010.557 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_itsec_lockouts.table.gz (27/59): adding to final database dump
+0010.557 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_itsec_logs.table.gz (28/59): adding to final database dump
+0010.559 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_itsec_opaque_tokens.table.gz (29/59): adding to final database dump
+0010.560 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_itsec_temp.table.gz (30/59): adding to final database dump
+0010.561 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_um_metadata.table.gz (31/59): adding to final database dump
+0010.561 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfblockediplog.table.gz (32/59): adding to final database dump
+0010.562 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfblocks7.table.gz (33/59): adding to final database dump
+0010.562 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfconfig.table.gz (34/59): adding to final database dump
+0010.589 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfcrawlers.table.gz (35/59): adding to final database dump
+0010.589 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wffilechanges.table.gz (36/59): adding to final database dump
+0010.590 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wffilemods.table.gz (37/59): adding to final database dump
+0010.659 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfhits.table.gz (38/59): adding to final database dump
+0010.660 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfhoover.table.gz (39/59): adding to final database dump
+0010.660 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfissues.table.gz (40/59): adding to final database dump
+0010.661 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfknownfilelist.table.gz (41/59): adding to final database dump
+0010.684 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wflivetraffichuman.table.gz (42/59): adding to final database dump
+0010.685 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wflocs.table.gz (43/59): adding to final database dump
+0010.685 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wflogins.table.gz (44/59): adding to final database dump
+0010.686 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfls_2fa_secrets.table.gz (45/59): adding to final database dump
+0010.686 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfls_settings.table.gz (46/59): adding to final database dump
+0010.687 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfnotifications.table.gz (47/59): adding to final database dump
+0010.687 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfpendingissues.table.gz (48/59): adding to final database dump
+0010.688 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfreversecache.table.gz (49/59): adding to final database dump
+0010.688 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfsnipcache.table.gz (50/59): adding to final database dump
+0010.689 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wfstatus.table.gz (51/59): adding to final database dump
+0010.690 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wftrafficrates.table.gz (52/59): adding to final database dump
+0010.691 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wpforms_tasks_meta.table.gz (53/59): adding to final database dump
+0010.692 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wpsbc_calendar_meta.table.gz (54/59): adding to final database dump
+0010.692 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wpsbc_calendars.table.gz (55/59): adding to final database dump
+0010.693 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wpsbc_event_meta.table.gz (56/59): adding to final database dump
+0010.693 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wpsbc_events.table.gz (57/59): adding to final database dump
+0010.694 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wpsbc_legend_item_meta.table.gz (58/59): adding to final database dump
+0010.694 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db-table-wp_wpsbc_legend_items.table.gz (59/59): adding to final database dump
+0010.696 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db.gz: finished writing out complete database file (1152 KB)
+0010.719 (0) Total database tables backed up: 59 (backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db.gz, size: 1197446, sha1: 0f608f0c920c7a5d4cdf2694ba97f64d31d1c4c7, sha256: e2971ca5ea1fbc1f5347af4940ab13f58c644d1b4757124fd2af9caf951b86a2)
+0010.723 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0010.724 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0010.724 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0010.725 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-others.zip: others: This file has not yet been successfully uploaded: will queue
+0010.725 (0) backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db.gz: db: This file has not yet been successfully uploaded: will queue
+0010.726 (0) Saving backup history. Total backup size: 53.9 MB
+0010.728 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0010.730 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0010.730 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-027f4217f1331761bff7a7103b111f15)
+0013.270 (0) Google Drive: quota usage: used=227 MB, total=10485987 MB, available=10485760 MB
+0013.270 (0) Google Drive: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip: Attempting to upload to Google Drive (into folder id: 1ZHSbB7Xd7WGsmsNe5H4achR1aGspJemH)
+0014.017 (0) Googledrive chunked upload: 2.8 % uploaded (1048576)
+0014.369 (0) Googledrive chunked upload: 5.6 % uploaded (2097152)
+0014.726 (0) Googledrive chunked upload: 8.3 % uploaded (3145728)
+0015.076 (0) Googledrive chunked upload: 11.1 % uploaded (4194304)
+0015.442 (0) Googledrive chunked upload: 13.9 % uploaded (5242880)
+0015.790 (0) Googledrive chunked upload: 16.7 % uploaded (6291456)
+0016.163 (0) Googledrive chunked upload: 19.5 % uploaded (7340032)
+0016.513 (0) Googledrive chunked upload: 22.2 % uploaded (8388608)
+0016.869 (0) Googledrive chunked upload: 25 % uploaded (9437184)
+0017.289 (0) Googledrive chunked upload: 27.8 % uploaded (10485760)
+0017.648 (0) Googledrive chunked upload: 30.6 % uploaded (11534336)
+0017.998 (0) Googledrive chunked upload: 33.3 % uploaded (12582912)
+0018.349 (0) Googledrive chunked upload: 36.1 % uploaded (13631488)
+0018.705 (0) Googledrive chunked upload: 38.9 % uploaded (14680064)
+0019.061 (0) Googledrive chunked upload: 41.7 % uploaded (15728640)
+0019.428 (0) Googledrive chunked upload: 44.5 % uploaded (16777216)
+0019.812 (0) Googledrive chunked upload: 47.2 % uploaded (17825792)
+0020.189 (0) Googledrive chunked upload: 50 % uploaded (18874368)
+0020.542 (0) Googledrive chunked upload: 52.8 % uploaded (19922944)
+0020.897 (0) Googledrive chunked upload: 55.6 % uploaded (20971520)
+0021.251 (0) Googledrive chunked upload: 58.4 % uploaded (22020096)
+0021.606 (0) Googledrive chunked upload: 61.1 % uploaded (23068672)
+0022.114 (0) Googledrive chunked upload: 63.9 % uploaded (24117248)
+0022.469 (0) Googledrive chunked upload: 66.7 % uploaded (25165824)
+0022.817 (0) Googledrive chunked upload: 69.5 % uploaded (26214400)
+0023.170 (0) Googledrive chunked upload: 72.2 % uploaded (27262976)
+0023.520 (0) Googledrive chunked upload: 75 % uploaded (28311552)
+0023.874 (0) Googledrive chunked upload: 77.8 % uploaded (29360128)
+0024.238 (0) Googledrive chunked upload: 80.6 % uploaded (30408704)
+0024.605 (0) Googledrive chunked upload: 83.4 % uploaded (31457280)
+0025.071 (0) Googledrive chunked upload: 86.1 % uploaded (32505856)
+0025.425 (0) Googledrive chunked upload: 88.9 % uploaded (33554432)
+0025.782 (0) Googledrive chunked upload: 91.7 % uploaded (34603008)
+0026.130 (0) Googledrive chunked upload: 94.5 % uploaded (35651584)
+0026.487 (0) Googledrive chunked upload: 97.3 % uploaded (36700160)
+0027.963 (0) Googledrive chunked upload: 100 % uploaded (36700160)
+0027.966 (0) Google Drive: OK: Archive backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip uploaded in 14.7 seconds
+0027.967 (0) Recording as successfully uploaded: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip
+0027.976 (0) Deleting local file: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-plugins.zip: OK
+0028.300 (0) Google Drive: quota usage: used=263 MB, total=10486023 MB, available=10485760 MB
+0028.301 (0) Google Drive: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-themes.zip: Attempting to upload to Google Drive (into folder id: 1ZHSbB7Xd7WGsmsNe5H4achR1aGspJemH)
+0029.094 (0) Googledrive chunked upload: 17.7 % uploaded (1048576)
+0029.462 (0) Googledrive chunked upload: 35.3 % uploaded (2097152)
+0029.825 (0) Googledrive chunked upload: 53 % uploaded (3145728)
+0030.173 (0) Googledrive chunked upload: 70.7 % uploaded (4194304)
+0030.525 (0) Googledrive chunked upload: 88.3 % uploaded (5242880)
+0038.063 (0) Googledrive chunked upload: 100 % uploaded (5242880)
+0038.065 (0) Google Drive: OK: Archive backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-themes.zip uploaded in 9.76 seconds
+0038.065 (0) Recording as successfully uploaded: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-themes.zip
+0038.068 (0) Deleting local file: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-themes.zip: OK
+0038.404 (0) Google Drive: quota usage: used=263 MB, total=10486023 MB, available=10485760 MB
+0038.405 (0) Google Drive: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-uploads.zip: Attempting to upload to Google Drive (into folder id: 1ZHSbB7Xd7WGsmsNe5H4achR1aGspJemH)
+0039.214 (0) Googledrive chunked upload: 11.5 % uploaded (1048576)
+0039.564 (0) Googledrive chunked upload: 23 % uploaded (2097152)
+0039.933 (0) Googledrive chunked upload: 34.4 % uploaded (3145728)
+0040.309 (0) Googledrive chunked upload: 45.9 % uploaded (4194304)
+0040.730 (0) Googledrive chunked upload: 57.4 % uploaded (5242880)
+0041.122 (0) Googledrive chunked upload: 68.9 % uploaded (6291456)
+0041.478 (0) Googledrive chunked upload: 80.3 % uploaded (7340032)
+0041.834 (0) Googledrive chunked upload: 91.8 % uploaded (8388608)
+0042.937 (0) Googledrive chunked upload: 100 % uploaded (8388608)
+0042.939 (0) Google Drive: OK: Archive backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-uploads.zip uploaded in 4.53 seconds
+0042.940 (0) Recording as successfully uploaded: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-uploads.zip
+0042.943 (0) Deleting local file: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-uploads.zip: OK
+0043.314 (0) Google Drive: quota usage: used=268.7 MB, total=10486028.7 MB, available=10485760 MB
+0043.314 (0) Google Drive: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-others.zip: Attempting to upload to Google Drive (into folder id: 1ZHSbB7Xd7WGsmsNe5H4achR1aGspJemH)
+0044.202 (0) Googledrive chunked upload: 41.1 % uploaded (1048576)
+0044.584 (0) Googledrive chunked upload: 82.2 % uploaded (2097152)
+0045.910 (0) Googledrive chunked upload: 100 % uploaded (2097152)
+0045.913 (0) Google Drive: OK: Archive backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-others.zip uploaded in 2.6 seconds
+0045.914 (0) Recording as successfully uploaded: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-others.zip
+0045.915 (0) Deleting local file: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-others.zip: OK
+0046.244 (0) Google Drive: quota usage: used=277.4 MB, total=10486037.4 MB, available=10485760 MB
+0046.244 (0) Google Drive: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db.gz: Attempting to upload to Google Drive (into folder id: 1ZHSbB7Xd7WGsmsNe5H4achR1aGspJemH)
+0047.074 (0) Googledrive chunked upload: 87.6 % uploaded (1048576)
+0048.629 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0048.632 (0) Google Drive: OK: Archive backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db.gz uploaded in 2.39 seconds
+0048.632 (0) Recording as successfully uploaded: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db.gz
+0048.634 (0) Deleting local file: backup_2020-04-06-0842_Anderi_Wordpressi_leht_013d02481ac8-db.gz: OK
+0048.636 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0048.637 (0) Number of backup sets in history: 3; groups (db): 1
+0048.638 (0) Examining (for databases) backup set with group_id=0, nonce=013d02481ac8, datestamp=1586151728 (Apr 06 2020 05:42:08)
+0048.638 (0) This backup set is the backup set just made, so will not be deleted.
+0048.638 (0) Examining (for databases) backup set with group_id=0, nonce=2391bdaa8423, datestamp=1586066753 (Apr 05 2020 06:05:53)
+0048.638 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0048.639 (0) Examining (for databases) backup set with group_id=0, nonce=f4501bc4bdbf, datestamp=1585916950 (Apr 03 2020 12:29:10)
+0048.639 (0) 1585916950: db: this set includes a database (backup_2020-04-03-1529_Anderi_Wordpressi_leht_f4501bc4bdbf-db.gz); db count is now 2
+0048.639 (0) 1585916950: db: over retain limit (2); will delete this database
+0048.639 (0) Delete file: backup_2020-04-03-1529_Anderi_Wordpressi_leht_f4501bc4bdbf-db.gz, service=googledrive
+0050.128 (0) Google Drive: backup_2020-04-03-1529_Anderi_Wordpressi_leht_f4501bc4bdbf-db.gz: Deletion successful
+0050.130 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0050.131 (0) Number of backup sets in history: 3; groups (files): 1
+0050.131 (0) Examining (for files) backup set with nonce=013d02481ac8, datestamp=1586151728 (Apr 06 2020 05:42:08)
+0050.131 (0) This backup set is the backup set just made, so will not be deleted.
+0050.132 (0) This backup set is the backup set just made, so will not be deleted.
+0050.132 (0) This backup set is the backup set just made, so will not be deleted.
+0050.132 (0) This backup set is the backup set just made, so will not be deleted.
+0050.132 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0050.132 (0) Examining (for files) backup set with nonce=2391bdaa8423, datestamp=1586066753 (Apr 05 2020 06:05:53)
+0050.133 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0050.133 (0) Examining (for files) backup set with nonce=f4501bc4bdbf, datestamp=1585916950 (Apr 03 2020 12:29:10)
+0050.133 (0) plugins: over retain limit (2); will delete this file entity
+0050.133 (0) themes: over retain limit (2); will delete this file entity
+0050.133 (0) uploads: over retain limit (2); will delete this file entity
+0050.133 (0) others: over retain limit (2); will delete this file entity
+0050.133 (0) Delete file: backup_2020-04-03-1529_Anderi_Wordpressi_leht_f4501bc4bdbf-plugins.zip, service=googledrive
+0050.133 (0) Delete file: backup_2020-04-03-1529_Anderi_Wordpressi_leht_f4501bc4bdbf-themes.zip, service=googledrive
+0050.134 (0) Delete file: backup_2020-04-03-1529_Anderi_Wordpressi_leht_f4501bc4bdbf-uploads.zip, service=googledrive
+0050.134 (0) Delete file: backup_2020-04-03-1529_Anderi_Wordpressi_leht_f4501bc4bdbf-others.zip, service=googledrive
+0053.377 (0) Google Drive: backup_2020-04-03-1529_Anderi_Wordpressi_leht_f4501bc4bdbf-others.zip: Deletion successful
+0054.157 (0) Google Drive: backup_2020-04-03-1529_Anderi_Wordpressi_leht_f4501bc4bdbf-uploads.zip: Deletion successful
+0054.841 (0) Google Drive: backup_2020-04-03-1529_Anderi_Wordpressi_leht_f4501bc4bdbf-themes.zip: Deletion successful
+0055.582 (0) Google Drive: backup_2020-04-03-1529_Anderi_Wordpressi_leht_f4501bc4bdbf-plugins.zip: Deletion successful
+0055.584 (0) This backup set is now empty; will remove from history
+0055.584 (0) Deleting log file (log.f4501bc4bdbf.txt)
+0055.585 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0055.587 (0) Resume backup (013d02481ac8, 0): finish run
+0055.588 (0) Decremented the semaphore (fd) by 1
+0055.589 (0) Semaphore (fd) unlocked
+0055.590 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0055.592 (0) Fetching RSS news feed
+0055.749 (0) Fetched RSS news feed; result is a: SimplePie
+0055.778 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: ander...
+0055.849 (0) The backup apparently succeeded and is now complete
